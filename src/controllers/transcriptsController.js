@@ -1,4 +1,4 @@
-const { DynamoDBClient, GetItemCommand, QueryCommand } = require('@aws-sdk/client-dynamodb');
+const { DynamoDBClient, GetItemCommand, ScanCommand, QueryCommand } = require('@aws-sdk/client-dynamodb');
 const { DynamoDBDocumentClient } = require('@aws-sdk/lib-dynamodb');
 
 // Initialize DynamoDB Client and DocumentClient
@@ -8,6 +8,26 @@ const dynamoDb = DynamoDBDocumentClient.from(client);
 // Table names
 const COMMENTS_TABLE_NAME = "Comments";
 const TRANSCRIPTS_TABLE_NAME = "Transcipts"; // Corrected table name
+
+const getAllTranscripts = async (req, res) => {
+    try {
+        // Define parameters for scanning the Transcripts table
+        const params = {
+            TableName: TRANSCRIPTS_TABLE_NAME
+        };
+
+        // Execute the scan command
+        const command = new ScanCommand(params);
+        const result = await dynamoDb.send(command);
+        const transcripts = result.Items;
+
+        // Return the list of transcripts
+        res.json(transcripts);
+
+    } catch (error) {
+        res.status(500).json({ error: 'Could not retrieve transcripts', details: error.message });
+    }
+}
 
 const getTranscriptSummary = async (req, res) => {
     const transcriptId = req.params.transcriptId;
@@ -57,5 +77,6 @@ const getTranscriptSummary = async (req, res) => {
 };
 
 module.exports = {
-    getTranscriptSummary
+    getTranscriptSummary,
+    getAllTranscripts
 };

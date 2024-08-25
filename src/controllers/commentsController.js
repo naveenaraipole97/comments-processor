@@ -2,6 +2,7 @@ const { v4: uuidv4 } = require('uuid');
 // AWS SDK v3 imports
 const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
 const { DynamoDBDocumentClient, PutCommand, GetCommand, QueryCommand, UpdateCommand, DeleteCommand } = require('@aws-sdk/lib-dynamodb');
+const { formatDate, formatTime } = require('../utils/formatDateTime');
 
 // Initialize DynamoDB Client and DocumentClient
 const client = new DynamoDBClient({ }); // Ensure the region is set correctly
@@ -15,6 +16,8 @@ const createComment = async (req, res) => {
     const commentId = uuidv4(); // Generate a unique commentId
     const createdAt = new Date().toISOString();
     const sortKey = `${createdAt}#${commentId}`;
+    const createdAtDate = formatDate(createdAt)
+    const createdAtTime = formatTime(createdAt)
 
     const params = {
         TableName: TABLE_NAME,
@@ -23,6 +26,8 @@ const createComment = async (req, res) => {
             transcriptId,
             text,
             createdAt,
+            createdAtDate,
+            createdAtTime,
             sortKey
         }
     };
