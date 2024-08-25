@@ -1,3 +1,10 @@
+// Load environment variables from .env.local
+require('dotenv').config({ path: '.env.local' });
+
+// Debugging: Log the API key
+console.log("API Key:", process.env.OPENAI_API_KEY);
+
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const serverless = require("serverless-http");
