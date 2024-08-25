@@ -2,13 +2,22 @@
   "name": "comments-processor",
   "version": "1.0.0",
   "description": "Backend for Processing Comments",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Naveena R, Rabia",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.19.2"
+    "aws-sdk": "^2.1682.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "uuid": "^10.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.637.0",
+    "@aws-sdk/lib-dynamodb": "^3.637.0",
+    "serverless-offline": "^13.7.0"
   }
 }
