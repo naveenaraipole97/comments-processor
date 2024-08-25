@@ -1,0 +1,25 @@
+service: rilla-project-1
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: us-east-1
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+       - dynamodb:PutItem
+       - dynamodb:GetItem
+       - dynamodb:UpdateItem
+       - dynamodb:DeleteItem
+       - dynamodb:Query
+       - dynamodb:Scan
+      Resource: 
+        - "arn:aws:dynamodb:${self:provider.region}:${aws:accountId}:table/Comments"
+        - "arn:aws:dynamodb:${self:provider.region}:${aws:accountId}:table/Transcipts"
+
+functions:
+  api:
+    handler: src/index.handler 
+    name: comments-processor-lambda
+    events:
+      - httpApi: '*' 

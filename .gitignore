@@ -5,3 +5,5 @@ Makefile
 
 # local env files
 .env*.local
+
+.serverless
