@@ -2,6 +2,13 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const serverless = require("serverless-http");
 
+//Allow CORS
+const cors = require('cors');
+
+app.use(cors({
+    origin: 'https://rilla-hackathon.vercel.app/', // Allow requests from this origin
+}));
+
 // Initialize Express app
 const app = express();
 app.use(bodyParser.json());
