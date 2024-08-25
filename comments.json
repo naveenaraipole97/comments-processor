@@ -1,0 +1,150 @@
+[
+    {
+        "commentId": "550e8400-e29b-41d4-a716-446655440000",
+        "transcriptId": "1",
+        "text": "Jordan is very welcoming and attentive. Great start!",
+        "createdAt": "2024-08-24T10:15:00Z",
+        "sortKey": "2024-08-24T10:15:00Z#550e8400-e29b-41d4-a716-446655440000"
+    },
+    {
+        "commentId": "550e8400-e29b-41d4-a716-446655440001",
+        "transcriptId": "2",
+        "text": "Customer seems interested in the sedans. Focus on fuel efficiency.",
+        "createdAt": "2024-08-24T10:17:00Z",
+        "sortKey": "2024-08-24T10:17:00Z#550e8400-e29b-41d4-a716-446655440001"
+    },
+    {
+        "commentId": "550e8400-e29b-41d4-a716-446655440002",
+        "transcriptId": "5",
+        "text": "Great pitch on the EcoDrive Sedan. Highlight safety features more.",
+        "createdAt": "2024-08-24T10:20:00Z",
+        "sortKey": "2024-08-24T10:20:00Z#550e8400-e29b-41d4-a716-446655440002"
+    },
+
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440003",
+            "transcriptId": "3",
+            "text": "Customer raised concerns about pricing. Offer financing options.",
+            "createdAt": "2024-08-24T10:22:00Z",
+            "sortKey": "2024-08-24T10:22:00Z#550e8400-e29b-41d4-a716-446655440003"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440004",
+            "transcriptId": "4",
+            "text": "Client seems interested in the extended warranty. Follow up.",
+            "createdAt": "2024-08-24T10:25:00Z",
+            "sortKey": "2024-08-24T10:25:00Z#550e8400-e29b-41d4-a716-446655440004"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440005",
+            "transcriptId": "2",
+            "text": "Explained the benefits of hybrid engines. Client was receptive.",
+            "createdAt": "2024-08-24T10:30:00Z",
+            "sortKey": "2024-08-24T10:30:00Z#550e8400-e29b-41d4-a716-446655440005"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440006",
+            "transcriptId": "6",
+            "text": "Customer expressed interest in the new SUV model. Provide specs.",
+            "createdAt": "2024-08-24T10:32:00Z",
+            "sortKey": "2024-08-24T10:32:00Z#550e8400-e29b-41d4-a716-446655440006"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440007",
+            "transcriptId": "7",
+            "text": "Good rapport established. Emphasize the loyalty program benefits.",
+            "createdAt": "2024-08-24T10:35:00Z",
+            "sortKey": "2024-08-24T10:35:00Z#550e8400-e29b-41d4-a716-446655440007"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440008",
+            "transcriptId": "8",
+            "text": "Customer asked about electric vehicles. Highlight charging network.",
+            "createdAt": "2024-08-24T10:37:00Z",
+            "sortKey": "2024-08-24T10:37:00Z#550e8400-e29b-41d4-a716-446655440008"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440009",
+            "transcriptId": "9",
+            "text": "Client appreciated the test drive experience. Encourage feedback.",
+            "createdAt": "2024-08-24T10:40:00Z",
+            "sortKey": "2024-08-24T10:40:00Z#550e8400-e29b-41d4-a716-446655440009"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440010",
+            "transcriptId": "10",
+            "text": "Customer concerned about insurance costs. Suggest comparison tools.",
+            "createdAt": "2024-08-24T10:42:00Z",
+            "sortKey": "2024-08-24T10:42:00Z#550e8400-e29b-41d4-a716-446655440010"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440011",
+            "transcriptId": "11",
+            "text": "Discussed trade-in options. Provide market value estimate.",
+            "createdAt": "2024-08-24T10:45:00Z",
+            "sortKey": "2024-08-24T10:45:00Z#550e8400-e29b-41d4-a716-446655440011"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440012",
+            "transcriptId": "12",
+            "text": "Customer responded well to the safety features presentation.",
+            "createdAt": "2024-08-24T10:47:00Z",
+            "sortKey": "2024-08-24T10:47:00Z#550e8400-e29b-41d4-a716-446655440012"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440013",
+            "transcriptId": "13",
+            "text": "Client was concerned about maintenance costs. Offer service package.",
+            "createdAt": "2024-08-24T10:50:00Z",
+            "sortKey": "2024-08-24T10:50:00Z#550e8400-e29b-41d4-a716-446655440013"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440014",
+            "transcriptId": "14",
+            "text": "Explored financing options. Follow up with detailed quote.",
+            "createdAt": "2024-08-24T10:52:00Z",
+            "sortKey": "2024-08-24T10:52:00Z#550e8400-e29b-41d4-a716-446655440014"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440015",
+            "transcriptId": "15",
+            "text": "Customer showed interest in the interior design options.",
+            "createdAt": "2024-08-24T10:55:00Z",
+            "sortKey": "2024-08-24T10:55:00Z#550e8400-e29b-41d4-a716-446655440015"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440016",
+            "transcriptId": "16",
+            "text": "Client was impressed with the vehicle's performance on the road.",
+            "createdAt": "2024-08-24T10:57:00Z",
+            "sortKey": "2024-08-24T10:57:00Z#550e8400-e29b-41d4-a716-446655440016"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440017",
+            "transcriptId": "17",
+            "text": "Discussed eco-friendly features. Customer appreciated the focus.",
+            "createdAt": "2024-08-24T11:00:00Z",
+            "sortKey": "2024-08-24T11:00:00Z#550e8400-e29b-41d4-a716-446655440017"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440018",
+            "transcriptId": "18",
+            "text": "Customer interested in the autonomous driving capabilities.",
+            "createdAt": "2024-08-24T11:02:00Z",
+            "sortKey": "2024-08-24T11:02:00Z#550e8400-e29b-41d4-a716-446655440018"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440019",
+            "transcriptId": "19",
+            "text": "Client requested more information on the luxury package.",
+            "createdAt": "2024-08-24T11:05:00Z",
+            "sortKey": "2024-08-24T11:05:00Z#550e8400-e29b-41d4-a716-446655440019"
+        },
+        {
+            "commentId": "550e8400-e29b-41d4-a716-446655440020",
+            "transcriptId": "20",
+            "text": "Customer was concerned about delivery times. Provide timeline.",
+            "createdAt": "2024-08-24T11:07:00Z",
+            "sortKey": "2024-08-24T11:07:00Z#550e8400-e29b-41d4-a716-446655440020"
+        }
+    ]
